@@ -1,0 +1,134 @@
+/*  background color */
+*{
+background-color: rgb(190, 201, 209);
+}
+
+
+/* To remove list-bullet */
+ul{
+list-style-type: none;
+}
+
+/* Using flexbox on menu  */
+ul.flexbox-menu{
+    display: flex;
+    gap: 18px;
+    justify-content: flex-end;
+    font-size: larger;
+   padding-right: 10px;
+}
+
+/* Header menu logo */
+li.header-logo{
+   margin-right: auto;
+}
+
+/* Main flex propety to place text and image in same row */
+div.main-header-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/* Main CTA decoration */
+div.second-row{
+    flex: 10 5 0;
+    background-color: rgb(187, 170, 170);
+    mix-blend-mode: normal;
+    padding: 10px;
+}
+div.second-row h1 , p, div{
+    background-color: inherit;
+}
+
+div.second-row-img{
+    flex: 2 1 0;
+}
+
+
+/* For better spacing around button */
+div.header-button{
+   margin-left: 10px;
+   margin-bottom: 5px;
+}
+
+/* Applying flex on first section */
+div.first-section{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+/* Heading 'Furballs' decoration */
+h2.furballs{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Carousel CSS for images of furballs */
+ul.flexbox-menu-2 li{
+    display: inline-block;
+    margin: 0px;
+    
+}
+
+ul li.li-property , ul li.li-property-1{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+flex-wrap: nowrap;
+}
+
+/* Disabled link decoration for better look */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Last section of the Page */
+div.final-cta{
+    text-align: center;
+    margin-bottom: 40px;
+}
+h3.final-cta-heading{
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+button.final{
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+    border-color: rgb(187, 170, 170);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+button.final:hover{
+    background-color:rgb(187, 170, 170);
+    color: rgb(235, 231, 231);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+
+}
+
+/* Edit footer values here   */
+footer{
+    position: fixed ;
+    bottom: 0;
+    width: 100%;
+    padding: 5x 10px 5px 10px;
+    background: rgb(180, 186, 190);
+    height: 30px;
+    text-align: center ;
+    border-top: 1px solid black;
+}
+
+h5 a{
+    color: blue;
+    text-decoration: none;
+}
+footer h5 , a{
+    background-color: inherit;
+    padding: inherit;
+    margin: 5px auto auto auto;
+}
